@@ -12,5 +12,5 @@ class MyComponent final : public React::Component {
 
 int main() {
     MyComponent myComponent;
-    return React::DOM::render(&myComponent);
+    return ReactDOM::render(&myComponent);
 }
